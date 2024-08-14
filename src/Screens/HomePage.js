@@ -117,11 +117,11 @@ function HomePage() {
                     {/* Right Column with SVGs and Text */}
                     <div className="lg:w-2/3 lg:pr-8 text-white flex flex-col justify-end h-full py-24 gap-y-4 px-4">
                         {/* Text */}
-                        <h2 className="text-secondary text-2xl lg:text-4xl font-semibold mb-4 text-left">SIGN UP & <br/> CREATE YOUR PROFILE</h2>
-                        <p className="text-lg text-secondary text-xl lg:text-2xl mb-4 text-left">Say goodbye to the solo workouts and uninspiring fitness routines! 
-                                    <br/>Train Rex is here to revolutionalize your tness journey and match you 
+                        <h2 className="text-secondary text-2xl lg:text-4xl font-semibold mb-4 text-left  lg:mt-[-40px]">SIGN UP & CREATE<br/> YOUR PROFILE</h2>
+                        <p className="text-lg text-secondary md:text-xl lg:text-2xl mb-4 text-left">Say goodbye to the solo workouts and uninspiring fitness routines! 
+                                    <br/>Train Rex is here to revolutionalize your fitness journey and match you 
                                     <br/> with your perfect workout buddy, all based on your schedule.</p>
-                        <p className="text-lg text-secondary text-2xl lg:text-4xl mb-4 text-left">Just add in a short Bio and select your place of workout!</p>
+                        <p className="text-lg text-secondary md:text-2xl lg:text-4xl mb-4 text-left">Just add in a short Bio and select your place of workout!</p>
                         {/* Button */}
                         {/* <a href="https://apps.apple.com/gb/app/train-rex/id6476014470" target="_blank" rel="noopener noreferrer"
                             className="w-60 bg-secondary hover:bg-primary text-tertiary text-xl py-2 px-8 rounded-3xl border border-gray-300 transition duration-300 ease-in-out focus:outline-none focus:shadow-outline">
@@ -146,18 +146,19 @@ function HomePage() {
                     
                     {/* Picture and Text Columns */}
                     <div className="w-72 flex flex-col items-center px-8 lg:px-0">
-                        <p className="text-base lg:text-lg md:text-xs text-primary text-2xl w-100">1. Select date and start scheduling workout Time and Type.</p>
+                        <p className="text-base lg:text-lg md:text-xs text-primary w-100">1. Select date and start scheduling workout Time and Type.</p>
                         <img src={iphone_match1} alt="Match 1" className="h-auto mt-2" />
                     </div>
                     <div className="w-72 flex flex-col items-center px-8 lg:px-0">
-                        <p className="text-base lg:text-lg md:text-xs text-primary text-2xl">2. Find places based on your place of workout and schedule.</p>
+                        <p className="text-base lg:text-lg md:text-xs text-primary">2. Find places based on your place of workout and schedule.</p>
                         <img src={iphone_match2} alt="Match 1" className="h-auto mt-2" />
                     </div>
                     <div className="w-72 flex flex-col items-center px-8 lg:px-0">
-                        <p className="text-base lg:text-lg md:text-xs text-primary text-2xl">3. Checkout user profiles of your matches and start chatting.</p>
+                        <p className="text-base lg:text-lg md:text-xs text-primary">3. Checkout user profiles of your matches and start chatting.</p>
                         <img src={iphone_match3} alt="Match 1" className="h-auto  mt-2" />
                     </div>   
                 </div>
+                {/* there should be a button to redirect to the match page */}
             </div>
 
             {/* Features- Track*/}
@@ -198,7 +199,7 @@ function HomePage() {
                         <img src={iphone_consult2} alt="Consult 1" className="h-auto mt-2" />
                     </div>
                     <div className="w-72 flex flex-col items-center px-8 lg:px-0">
-                        <p className="text-base lg:text-lg md:text-xs text-primary text-2xl">2. Find expert fitness consultations.</p>
+                        <p className="text-base lg:text-lg md:text-xs text-primary text-2xl mb-7">2. Find expert fitness consultations.</p>
                         <img src={iphone_consult1} alt="Consult 1" className="h-auto mt-2" />
                     </div>
                     <div className="w-72 flex flex-col items-center px-8 lg:px-0">

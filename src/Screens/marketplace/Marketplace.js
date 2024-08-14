@@ -27,10 +27,10 @@ function Marketplace() {
                 <div className="lg:w-1/2 lg:pr-8 text-white flex flex-col items-center">
                     {/* Form */}
                     <form className="p-8 rounded-lg pt-44">
-                        <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-tertiary">EXPLORE GYMS/ CLASSES</h2>
+                        <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-tertiary">EXPLORE GYMS/CLASSES</h2>
                         <div className="mb-4 w-3/4 flex w-1/2 rounded-2xl">
                             {/* <label htmlFor="searchInput1" className="block text-gray-700">Input 1</label> */}
-                            <input type="text" id="searchInput1" name="searchInput1" placeholder="Select Location" className="w-full h-10 px-4 rounded-xl bg-tertiary text-primary focus:border-4 focus:border-secondary placeholder-color custom-input"/>
+                            <input type="text" id="searchInput1" name="searchInput1" placeholder="Select Location" className="w-full h-10 px-4 rounded-xl bg-tertiary text-primary focus:border-4 focus:border-secondary placeholder-color- custom-input"/>
                         </div>
                         <div className="mb-4 w-3/4 flex w-1/2 rounded-2xl">
                             {/* <label htmlFor="searchInput1" className="block text-gray-700">Input 1</label> */}
@@ -123,11 +123,11 @@ function Marketplace() {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-tertiary flex items-center justify-center w-full px-4 pb-12" style={{height: 600}}>
+            <div className="bg-tertiary flex items-center justify-center w-full px-4 mt-4 pb-12" style={{height: 600}}>
                 {/* <div style={{height: 600}} className={'w-full'}> */}
                     {/* Form */}
                     <div id='ContactUs' className="flex flex-col bg-tertiary w-fit lg:w-1/2 rounded-lg">
-                        <h2 className="flex text-2xl lg:text-4xl font-semibold mb-4 text-primary">Connect with Us!</h2>
+                        <h2 className="flex text-2xl lg:text-4xl font-semibold mb-2 text-primary">Connect with Us!</h2>
                         <div className="mb-4 flex flex-wrap lg:gap-x-1">
                             <PillButton label="GYMS"/>
                             <PillButton label="CLASSES"/>

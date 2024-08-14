@@ -58,10 +58,10 @@ function PPPage() {
         <p>
           We process your personal data based on the following legal grounds:
         </p>
-        <ul className="list-disc ml-8 mb-4">
-          <li>Performance of a contract: We process your personal data to fulfill our contractual obligations to you, such as providing gym buddy matching services and personalized diet and training plans.</li>
-          <li>Legitimate interests: We process your personal data to pursue our legitimate interests, such as improving our App and services and communicating with you about our products and services.</li>
-          <li>Consent: We process your personal data based on your consent, such as when you provide us with your contact information to receive marketing communications.</li>
+        <ul className="list-disc ml-7 mb-4">
+          <li><span className="font-semibold">Performance of a contract: </span>We process your personal data to fulfill our contractual obligations to you, such as providing gym buddy matching services and personalized diet and training plans.</li>
+          <li><span className="font-semibold">Legitimate interests: </span>We process your personal data to pursue our legitimate interests, such as improving our App and services and communicating with you about our products and services.</li>
+          <li><span className="font-semibold">Consent: </span>We process your personal data based on your consent, such as when you provide us with your contact information to receive marketing communications.</li>
         </ul>
         <p>Details about each legal basis...</p>
       </div>
@@ -72,10 +72,10 @@ function PPPage() {
         <p>
           We may share your personal data with the following third parties:
         </p>
-        <ul className="list-disc ml-8 mb-4">
-          <li>Service providers: We may share your personal data with third-party service providers who help us provide our App and services, such as payment processors and customer support providers.</li>
-          <li>Business partners: We may share your personal data with business partners who offer complementary products or services.</li>
-          <li>Legal authorities: We may share your personal data with law enforcement or other legal authorities if required by law or to protect our legal rights.</li>
+        <ul className="list-disc ml-7 mb-4">
+          <li><span className="font-semibold">Service providers:</span> We may share your personal data with third-party service providers who help us provide our App and services, such as payment processors and customer support providers.</li>
+          <li><span className="font-semibold">Business partners:</span> We may share your personal data with business partners who offer complementary products or services.</li>
+          <li><span className="font-semibold">Legal authorities:</span> We may share your personal data with law enforcement or other legal authorities if required by law or to protect our legal rights.</li>
         </ul>
         <p>We may also share your personal data with third parties if we sell or transfer all or a portion of our business or assets.</p>
       </div>
@@ -94,14 +94,14 @@ function PPPage() {
         <p>
           As a data subject, you have the following rights regarding your personal data:
         </p>
-        <ul className="list-disc ml-8 mb-4">
-          <li>Right to access: You have the right to request access to your personal data and receive a copy of it.</li>
-          <li>Right to rectification: You have the right to request that we correct any inaccuracies in your personal data.</li>
-          <li>Right to erasure: You have the right to request that we delete your personal data.</li>
-          <li>Right to restrict processing: You have the right to request that we restrict the processing of your personal data.</li>
-          <li>Right to data portability: You have the right to receive your personal data in a structured, commonly used, and machine-readable format and to transmit it to another controller.</li>
-          <li>Right to object: You have the right to object to the processing of your personal data for certain purposes, such as direct marketing</li>
-          <li>Right to withdraw consent: If we process your personal data based on your consent, you have the right to withdraw your consent at any time.</li>
+        <ul className="list-disc ml-7 mb-4">
+          <li><span className="font-semibold">Right to access: </span>You have the right to request access to your personal data and receive a copy of it.</li>
+          <li><span className="font-semibold">Right to rectification: </span>You have the right to request that we correct any inaccuracies in your personal data.</li>
+          <li><span className="font-semibold">Right to erasure: </span>You have the right to request that we delete your personal data.</li>
+          <li><span className="font-semibold">Right to restrict processing: </span>You have the right to request that we restrict the processing of your personal data.</li>
+          <li><span className="font-semibold">Right to data portability: </span>You have the right to receive your personal data in a structured, commonly used, and machine-readable format and to transmit it to another controller.</li>
+          <li><span className="font-semibold">Right to object: </span>You have the right to object to the processing of your personal data for certain purposes, such as direct marketing</li>
+          <li><span className="font-semibold">Right to withdraw consent:</span>If we process your personal data based on your consent, you have the right to withdraw your consent at any time.</li>
         </ul>
       </div>
 
@@ -125,9 +125,9 @@ function PPPage() {
       <div className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Security Measures</h2>
         <ul className="list-disc ml-8 mb-4">
-          <li>Encryption: We use encryption protocols to protect data in transit and at rest, ensuring the confidentiality and integrity of your information.</li>
-          <li>Access Controls: Strict access controls are implemented to limit access to personal information, ensuring that only authorized personnel have access.</li>
-          <li>Security Audits: Regular security audits and assessments are conducted to identify and address potential vulnerabilities in our systems.</li>
+          <li><span className="font-semibold">Encryption: </span>We use encryption protocols to protect data in transit and at rest, ensuring the confidentiality and integrity of your information.</li>
+          <li><span className="font-semibold">Access Controls: </span>Strict access controls are implemented to limit access to personal information, ensuring that only authorized personnel have access.</li>
+          <li><span className="font-semibold">Security Audits: </span>Regular security audits and assessments are conducted to identify and address potential vulnerabilities in our systems.</li>
         </ul>
         <p>
             Notwithstanding anything stated above, no electronic transmission or storage method is completely secure, and we cannot guarantee absolute security.

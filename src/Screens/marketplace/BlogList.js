@@ -50,9 +50,10 @@ function BlogList() {
                 </div>
             ) : (
                 blogs !== null && (
-                    <div className="flex flex-col py-8">
-                        <p className="flex text-secondary text-lg lg:text-4xl font-bold pl-6 lg:pl-8 pt-2 lg:pt-12 pb-6">CHECKOUT THE TRAIN REX BLOGS</p>
-                        <div className="hidden lg:flex flex-row flex-wrap justify-between">
+                    // changed items to center and card are justify around, not between, changed cursor to pointer to make cards look clickable
+                    <div className="flex flex-col py-8 items-center">
+                        <p className="flex text-secondary text-lg lg:text-4xl font-bold pl-6 lg:pl-8 pt-2 lg:pt-6 pb-6">CHECKOUT THE TRAIN REX BLOGS</p>
+                        <div className="hidden lg:flex flex-row flex-wrap justify-around gap-10">
                             {chunkArray(currentItems, 1).map((column, columnIndex) => (
                                 <div key={columnIndex} className="flex flex-col space-y-4 lg:space-y-8">
                                     {column.map((card, index) => (

@@ -47,7 +47,6 @@ function ProductPortfolio () {
             amount  :   amount * 100,
             image   :   data.image[0]
         })
-
     }
 
     /**
@@ -57,7 +56,7 @@ function ProductPortfolio () {
         const loadGymData = async () => {
             try {
                 const gymData = await fetchGymData(data.city, data.name);
-                console.log(gymData);
+                console.log("gym data", gymData);
                 setGymData(gymData);
             } catch (error) {
                 console.error('Error fetching gym data:', error.message);

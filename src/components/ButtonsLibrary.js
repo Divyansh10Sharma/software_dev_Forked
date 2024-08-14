@@ -53,7 +53,7 @@ export const Placard = (props) => {
 
     return (
       <div
-        className={`flex flex-col h-fit rounded-3xl mx-4 lg:mx-8 ${props.bg}`}
+        className={`flex flex-col h-fit cursor-pointer lg:min-h-28 rounded-3xl mx-4 lg:mx-8 ${props.bg}`}
         onClick={handleClick}
       >
         <img src={convertToDirectLink(props.image)} alt="Logo" className="flex h-36 w-84 lg:h-56 m-2 lg:m-4 rounded-2xl"/>
@@ -223,7 +223,7 @@ export const ListCard = (props) => {
 
 export const JobDescriptionPopup = ({ text, handleClosePopup }) => {
     return (
-    <div className="fixed inset-0 flex items-center justify-center bg-tertiary bg-opacity-50 p-2">
+    <div className="fixed inset-0 flex items-center justify-center bg-tertiary bg-opacity-50 p-2 mt-36">
         <div className="bg-secondary text-black p-4 rounded-2xl border-4 border-secondary overflow-y-auto max-h-[65vh] max-w-[90vw] w-full sm:w-auto">
         <div className="px-4 py-2 flex flex-col text-left">
             <h2 className="text-2xl font-bold mb-4">About the job</h2>

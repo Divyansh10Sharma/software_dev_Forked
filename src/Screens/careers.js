@@ -11,14 +11,15 @@ function Careers() {
                 <PillButton label="Fitness Classes" list={true}/>
                 <PillButton label="Sports" list={true}/>
             </div> */}
-            <div className="flex flex-col py-4">
+            <div className="flex flex-col py-12">
                 <p className="flex text-secondary text-lg lg:text-4xl font-bold px-2">JOBS</p>
                 <p className="flex text-secondary text-sm lg:text-2xl font-bold px-2">INTENT MATTERS</p>
                 <div>
+                {/*corrected props' name */}
                     <ListCard 
                         image= {[icon]}
-                        name= "Field Marketing Agent" 
-                        location= "Edinburgh, UK"
+                        gymDisplayName= "Field Marketing Agent" 
+                        cityDisplayName= "Edinburgh, UK"
                         buttonText= "Apply"
                         extraText= "Jobs"/>
                 </div>

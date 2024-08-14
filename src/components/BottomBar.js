@@ -27,12 +27,12 @@ function BottomBar() {
                         {/* First SVG */}
                         <a href="mailto:info@trainrex.org" onClick={() => logSocialMediaClick('email')} className="flex flex-row gap-x-1 pb-1">
                             <EmailIcon style={{ marginTop: 4 }}/>
-                            <h2 className="text-secondary font-semibold">info@trainrex.org</h2>
+                            <h2 className="text-secondary pl-1 font-semibold">info@trainrex.org</h2>
                         </a>
                         {/* Second SVG */}
                         <a href="tel:+917827145068" onClick={() => logSocialMediaClick('phone')} className="flex flex-row gap-x-1">
                             <CallIcon style={{ marginTop: 4 }}/>
-                            <h2 className="text-secondary font-semibold">+91 7827145068</h2>
+                            <h2 className="text-secondary pl-1 font-semibold">+91 7827145068</h2>
                         </a>
                     </div>
                 </div>
@@ -47,15 +47,15 @@ function BottomBar() {
                     <div className="flex flex-row mb-4 gap-x-4 items-left lg:items-center ">
                         {/* Second SVG */}
                         <a href="http://www.facebook.com/share/ycAc6CgBiJt5Vfn4/?mibextid=sCpJLy" onClick={() => logSocialMediaClick('FB')}>
-                            <img src={facebook} alt="facebook" className="h-9 lg:h-10 mb-2 w-10 lg:w-12" />
+                            <img src={facebook} alt="facebook" className="h-10 w-10 object-cover mb-2" />
                         </a>
                         {/* Third SVG */}
                         <a href="http://www.instagram.com/trainrex_official/" onClick={() => logSocialMediaClick('insta')}>
-                            <img src={insta} alt="insta" className="h-9 lg:h-10 mb-2 w-10 lg:w-12" />
+                            <img src={insta} alt="insta" className="h-10 w-10 object-cover mb-2" />
                         </a>
                         {/* Fourth SVG */}
                         <a href="http://twitter.com/Train__Rex" onClick={() => logSocialMediaClick('X')}>
-                            <img src={x} alt="x" className="h-9 lg:h-10 mb-2 w-10 lg:w-12" />
+                            <img src={x} alt="x" className="h-10 w-10 object-cover mb-2" />
                         </a>
                     </div>
                 </div>
@@ -76,6 +76,11 @@ function BottomBar() {
             {/* <div className="container mx-auto px-4 text-center text-gray-300">
                 <p>&copy; 2024 {Strings.FullName}. All Rights Reserved.</p>
             </div> */}
+
+            {/* Added Terms % Conditions and routed to correct link */}
+            <div className="text-white pb-2">
+                <a href="/TCPage">Terms & Conditions</a>
+            </div>
         </footer>
   );
 }
